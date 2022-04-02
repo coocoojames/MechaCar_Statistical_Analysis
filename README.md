@@ -1,2 +1,1 @@
-# MechaCar_Statistical_Analysis
-Analyzing trend.
+# MechaCar Statistical Analysis

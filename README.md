@@ -4,18 +4,18 @@
 &emsp; Only two out of variances provided sufficient p-value to reject the null hypothesis: vehicle_length and ground_clearance. With a y-intercept of 1.08, it is not a slope of 0. This model, however, does not effectively predict the mpg because an r-squared of 71% is not good enough.
 
 ## Summary Statistics on Suspension Coils
-&emsp; ![Total Summary](Resources/total_summary.png)<br /> The variance for Lot1 and 2 are well under the 100 psi specification requirement. However, Lot3 is 70 over the 100 limit of 170. The total variance across them all is, however, under 100 being 62.29.<br />
-![Log Summary](Resources/lot_summary.png)
+&emsp; ![Total Summary](Resources/total_summary.PNG)<br /> The variance for Lot1 and 2 are well under the 100 psi specification requirement. However, Lot3 is 70 over the 100 limit of 170. The total variance across them all is, however, under 100 being 62.29.<br />
+![Log Summary](Resources/lot_summary.PNG)
 
 ## T-Tests on Suspension Coils
 &emsp; With a p-value of 0.06 we fail to reject the null pythothesis stating that there is NO statistical difference between the sample and population means.<br />
-![Total T-Test](Resources/total_ttest.png)<br />
+![Total T-Test](Resources/total_ttest.PNG)<br />
 &emsp; Lot 1 has a 1 for its p-value, indicating incredibly similar means.
-![Lot1 T-Test](Resources/lot1_ttest.png)<br />
+![Lot1 T-Test](Resources/lot1_ttest.PNG)<br />
 &emsp; Lot 2 has a 0.60 for its p-value indicating that there is still difference the means but nevertheless it fails to reject the null hypothesis stating there is no statistical difference between the two means.<br />
-![Lot2 T-Test](Resources/lot2_ttest.png)<br />
+![Lot2 T-Test](Resources/lot2_ttest.PNG)<br />
 &emsp; Lot 3 has a p-value of 0.04 which is 1% below the desired 0.05, which means we reject the null hypothesis and recognize that Lot 3 has a statistically signicant difference between its mean and the population mean of 1500.<br />
-![Lot3 T-Test](Resources/lot3_ttest.png)<br />
+![Lot3 T-Test](Resources/lot3_ttest.PNG)<br />
 
 ## Study Design: MechaCar vs Competition
 &emsp; There are several ways to compare MechaCar data to competitor data. One of which is comparing the maintenance cost of a vehicel versus its horsepower. Typically, a vehicle with a combustion engine that possesses higher horsepower means it has more components to the engine and other parts of the vehicle which usually requires more cost to maintain.<br />
